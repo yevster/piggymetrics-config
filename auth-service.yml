@@ -1,9 +1,3 @@
-spring:
-  data:
-    mongodb:
-      database: ${MONGODB_DATABASE}
-      uri: ${MONGODB_URI}
-
 server:
   servlet:
     context-path: /uaa
