@@ -25,10 +25,6 @@ backup:
     attachment: backup.json
 
 spring:
-  data:
-    mongodb:
-      database: ${MONGODB_DATABASE}
-      uri: ${MONGODB_URI}
   mail:
     host: smtp.gmail.com
     port: 465
